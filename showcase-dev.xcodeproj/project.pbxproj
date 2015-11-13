@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		755FF71972518837CB0FA5BE /* Pods_showcase_dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05ACEA87469BC2B1CC5CE70 /* Pods_showcase_dev.framework */; };
+		8EBBDA521BF6368500AA210B /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBDA511BF6368500AA210B /* FeedVC.swift */; };
+		8EBBDA541BF6373100AA210B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBDA531BF6373100AA210B /* PostCell.swift */; };
 		8EF7C1191BECF2EE0052770A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7C1181BECF2EE0052770A /* AppDelegate.swift */; };
 		8EF7C11B1BECF2EE0052770A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7C11A1BECF2EE0052770A /* ViewController.swift */; };
 		8EF7C11E1BECF2EE0052770A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF7C11C1BECF2EE0052770A /* Main.storyboard */; };
@@ -29,9 +31,11 @@
 
 /* Begin PBXFileReference section */
 		6FE5BA2DE0E1FA82DD8BD98F /* Pods-showcase-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-showcase-dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-showcase-dev/Pods-showcase-dev.release.xcconfig"; sourceTree = "<group>"; };
+		8EBBDA511BF6368500AA210B /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		8EBBDA531BF6373100AA210B /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		8EF7C1151BECF2EE0052770A /* showcase-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "showcase-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF7C1181BECF2EE0052770A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8EF7C11A1BECF2EE0052770A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EF7C11A1BECF2EE0052770A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "showcase-dev/ViewController.swift"; sourceTree = "<group>"; };
 		8EF7C11D1BECF2EE0052770A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EF7C11F1BECF2EE0052770A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EF7C1221BECF2EE0052770A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -104,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				8EF7C1181BECF2EE0052770A /* AppDelegate.swift */,
-				8EF7C11A1BECF2EE0052770A /* ViewController.swift */,
 				8EF7C11C1BECF2EE0052770A /* Main.storyboard */,
 				8EF7C11F1BECF2EE0052770A /* Assets.xcassets */,
 				8EF7C1211BECF2EE0052770A /* LaunchScreen.storyboard */,
@@ -116,6 +119,9 @@
 		8EF7C12A1BECF2F80052770A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8EF7C11A1BECF2EE0052770A /* ViewController.swift */,
+				8EBBDA511BF6368500AA210B /* FeedVC.swift */,
+				8EBBDA531BF6373100AA210B /* PostCell.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -305,6 +311,8 @@
 				8EF7C1481BED5CAB0052770A /* DataService.swift in Sources */,
 				8EF7C1371BECF76E0052770A /* MaterialView.swift in Sources */,
 				8EF7C11B1BECF2EE0052770A /* ViewController.swift in Sources */,
+				8EBBDA521BF6368500AA210B /* FeedVC.swift in Sources */,
+				8EBBDA541BF6373100AA210B /* PostCell.swift in Sources */,
 				8EF7C1191BECF2EE0052770A /* AppDelegate.swift in Sources */,
 				8EF7C13A1BECF8080052770A /* Constants.swift in Sources */,
 				8EF7C13C1BED0A190052770A /* MaterialButton.swift in Sources */,

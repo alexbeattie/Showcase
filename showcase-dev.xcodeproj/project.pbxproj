@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		755FF71972518837CB0FA5BE /* Pods_showcase_dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05ACEA87469BC2B1CC5CE70 /* Pods_showcase_dev.framework */; };
+		8E39B9781C0E44A1007AC16D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E39B9771C0E44A1007AC16D /* Post.swift */; };
 		8EBBDA521BF6368500AA210B /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBDA511BF6368500AA210B /* FeedVC.swift */; };
 		8EBBDA541BF6373100AA210B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBDA531BF6373100AA210B /* PostCell.swift */; };
 		8EF7C1191BECF2EE0052770A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7C1181BECF2EE0052770A /* AppDelegate.swift */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		6FE5BA2DE0E1FA82DD8BD98F /* Pods-showcase-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-showcase-dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-showcase-dev/Pods-showcase-dev.release.xcconfig"; sourceTree = "<group>"; };
+		8E39B9771C0E44A1007AC16D /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		8EBBDA511BF6368500AA210B /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		8EBBDA531BF6373100AA210B /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		8EF7C1151BECF2EE0052770A /* showcase-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "showcase-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +141,7 @@
 		8EF7C12C1BECF3170052770A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8E39B9771C0E44A1007AC16D /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				8EF7C1191BECF2EE0052770A /* AppDelegate.swift in Sources */,
 				8EF7C13A1BECF8080052770A /* Constants.swift in Sources */,
 				8EF7C13C1BED0A190052770A /* MaterialButton.swift in Sources */,
+				8E39B9781C0E44A1007AC16D /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

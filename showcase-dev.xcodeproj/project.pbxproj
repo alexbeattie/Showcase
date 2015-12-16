@@ -123,7 +123,6 @@
 			children = (
 				8EF7C11A1BECF2EE0052770A /* ViewController.swift */,
 				8EBBDA511BF6368500AA210B /* FeedVC.swift */,
-				8EBBDA531BF6373100AA210B /* PostCell.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -134,6 +133,7 @@
 				8EF7C1361BECF76E0052770A /* MaterialView.swift */,
 				8EF7C13B1BED0A190052770A /* MaterialButton.swift */,
 				8EF7C13D1BED0DD20052770A /* MaterialTextField.swift */,
+				8EBBDA531BF6373100AA210B /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";

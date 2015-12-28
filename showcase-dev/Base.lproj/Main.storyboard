@@ -363,6 +363,7 @@
                                         <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="descriptionText" destination="wzH-Bf-qV3" id="MPm-4T-rE7"/>
+                                            <outlet property="likeImage" destination="mcG-D1-VPB" id="AV9-nn-XpB"/>
                                             <outlet property="likesLbl" destination="Dmd-cR-EIH" id="cR9-5e-y5W"/>
                                             <outlet property="profileImg" destination="zg3-Qi-yft" id="pMd-YR-6wV"/>
                                             <outlet property="showcaseImg" destination="EJc-uC-hN1" id="Gm1-SH-A9l"/>
